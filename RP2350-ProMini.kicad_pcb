@@ -1174,7 +1174,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "227a3755-21c4-4090-9b6a-abe7a48bbeb9")
 		)
-		(model "${KIPRJMOD}/lib/RP2350A-QFN60.step"
+		(model "${KIPRJMOD}/lib/RP2350A-QFN60.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
