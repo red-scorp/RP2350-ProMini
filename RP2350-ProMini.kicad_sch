@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RP2350-ProMini-0010")
-		(date "2024-09-01")
+		(date "2024-09-03")
 		(rev "1.0")
 		(company "(c) 2024 Andriy Golovnya")
 		(comment 1 "RP2350 based board with Arduino Pro Mini footprint and debug extension")
@@ -8483,142 +8483,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b6a9835-3e78-4e8d-9c73-3d905ba8811f")
-		(property "Reference" "#PWR062"
-			(at 185.42 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df78be66-c5af-468d-94d7-d8994183b658")
-		)
-		(instances
-			(project "RP2350-ProMini"
-				(path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d935cc3-960a-4920-b8b5-f3ecf2eca9e8")
-		(property "Reference" "C17"
-			(at 187.96 151.7713 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 187.96 154.3113 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 185.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a000f13f-ba25-4dbe-a8a6-fe793b053aa4")
-		)
-		(pin "2"
-			(uuid "4890119c-465d-4d41-9141-52da74526983")
-		)
-		(instances
-			(project "RP2350-ProMini"
-				(path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 173.99 149.86 0)
 		(unit 1)
@@ -13661,72 +13525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 185.42 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab1aee39-12ee-418a-8770-15224e51b4c4")
-		(property "Reference" "#PWR061"
-			(at 185.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 185.42 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8048546b-e353-47df-bce0-03a0b8aaf786")
-		)
-		(instances
-			(project "RP2350-ProMini"
-				(path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 129.54 179.07 0)
 		(unit 1)
@@ -13754,7 +13552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 179.07 0)
 			(effects
 				(font
@@ -14878,7 +14676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.41 152.4 0)
 			(effects
 				(font
@@ -15351,7 +15149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.79 49.53 0)
 			(effects
 				(font
