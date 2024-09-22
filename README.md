@@ -26,7 +26,7 @@ Preview:
 
 You can view the [Schematics in PDF format](doc/RP2350-ProMini.pdf) for detailed information.
 
-STEP 3D files are available [with pins](doc/RP23540-ProMini-with-pins.step) and [without pins](doc/RP2350-ProMini-board.step).
+STEP 3D files are available [with pins](doc/RP2350-ProMini-with-pins.step) and [without pins](doc/RP2350-ProMini-board.step).
 
 Features:
 

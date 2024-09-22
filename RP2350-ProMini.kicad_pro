@@ -564,10 +564,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "cam",
+      "pos_files": "cam",
       "specctra_dsn": "",
-      "step": "doc/RP2040-ProMini.step",
+      "step": "doc/RP2350-ProMini-with-pins.step",
       "svg": "",
       "vrml": ""
     },
